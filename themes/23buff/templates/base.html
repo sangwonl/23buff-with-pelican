@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>{% block head %}{% endblock head %}</head>
+<body>
+    {% include 'facebook.html' %}
+    <header>{% block header %}{% endblock %}</header>
+    <section>{% block content %}{% endblock %}</section>
+    <footer>{% block footer %}{% endblock %}</footer>
+    {% include 'analytics.html' %}
+</body>
+</html>
